@@ -74,7 +74,41 @@
 
         <li>
 
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">ember-table.</span>index</span>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">ember-table.</span>name</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.ember-table.index">module ember-table.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-table.index.afterInstall">
+            function <span class="apidocSignatureSpan">ember-table.index.</span>afterInstall
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-table.index.included">
+            function <span class="apidocSignatureSpan">ember-table.index.</span>included
+            <span class="apidocSignatureSpan">(app)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">ember-table.index.</span>name</span>
 
         </li>
 
@@ -106,6 +140,67 @@
     <h2>
         <a href="#apidoc.element.ember-table.included" id="apidoc.element.ember-table.included">
         function <span class="apidocSignatureSpan">ember-table.</span>included
+        <span class="apidocSignatureSpan">(app)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">included = function (app) {
+  this._super.included(app);
+
+  app.import(app.bowerDirectory + '/antiscroll/antiscroll.js');
+  app.import(app.bowerDirectory + '/antiscroll/antiscroll.css');
+  app.import(app.bowerDirectory + '/jquery-ui/jquery-ui.js');
+  app.import(app.bowerDirectory + '/jquery-mousewheel/jquery.mousewheel.js');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+'use strict';
+
+module.exports = {
+name: 'ember-table',
+
+included: function(app) {
+  this._super.<span class="apidocCodeKeywordSpan">included</span>(app);
+
+  app.import(app.bowerDirectory + '/antiscroll/antiscroll.js');
+  app.import(app.bowerDirectory + '/antiscroll/antiscroll.css');
+  app.import(app.bowerDirectory + '/jquery-ui/jquery-ui.js');
+  app.import(app.bowerDirectory + '/jquery-mousewheel/jquery.mousewheel.js');
+},
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.ember-table.index" id="apidoc.module.ember-table.index">module ember-table.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ember-table.index.afterInstall" id="apidoc.element.ember-table.index.afterInstall">
+        function <span class="apidocSignatureSpan">ember-table.index.</span>afterInstall
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">afterInstall = function () {
+  this.addBowerPackageToProject('antiscroll');
+  this.addBowerPackageToProject('jquery-mousewheel');
+  this.addBowerPackageToProject('jquery-ui');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.ember-table.index.included" id="apidoc.element.ember-table.index.included">
+        function <span class="apidocSignatureSpan">ember-table.index.</span>included
         <span class="apidocSignatureSpan">(app)</span>
         </a>
     </h2>
