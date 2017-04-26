@@ -1,6 +1,6 @@
 # npmdoc-ember-table
 
-#### api documentation for  [ember-table (v0.9.2)](https://github.com/Addepar/ember-table)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-table)
+#### basic api documentation for  [ember-table (v0.9.2)](https://github.com/Addepar/ember-table)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-table.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-table) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-table.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-table)
 
 #### Table built using Ember.js that lazily renders rows.
 
@@ -112,7 +112,8 @@
         "start": "ember server",
         "test": "ember try:testall"
     },
-    "version": "0.9.2"
+    "version": "0.9.2",
+    "bin": {}
 }
 ```
 
